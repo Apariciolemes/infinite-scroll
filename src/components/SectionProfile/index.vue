@@ -1,0 +1,3 @@
+<template>
+    Section profile
+</template>
