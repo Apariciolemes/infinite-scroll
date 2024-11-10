@@ -1,5 +1,57 @@
-# Vue 3 + TypeScript + Vite
+# Infinite Scroll
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+An infinite scroll component project built with Vue.js, Vite, and TypeScript.
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+## Prerequisites
+
+Make sure you have the following installed:
+
+- [Node.js](https://nodejs.org/) (version 16 or higher recommended)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/) package manager
+
+## Getting Started
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/Apariciolemes/infinite-scroll.git
+cd infinite-scroll
+```
+
+### 2. Install Dependencies
+
+```bash
+yarn install
+```
+
+### 3. Run the Development Server
+
+Start the Vite development server by running:
+
+```bash
+yarn dev
+```
+
+### 4. Run Tests
+
+```bash
+yarn test
+```
+
+### 5. Check Test Coverage
+
+```bash
+yarn coverage
+```
+
+### 6. Lint and Format Code
+
+Ensure your code follows the linting rules:
+```bash
+yarn lint
+```
+
+To automatically format code:
+```bash
+yarn format
+```
