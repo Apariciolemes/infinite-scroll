@@ -1,6 +1,7 @@
 // eslint.config.js
 import pluginVue from 'eslint-plugin-vue'
 import js from '@eslint/js'
+import prettierConfig from 'eslint-config-prettier'
 
 export default [
   // Ignore patterns
@@ -25,6 +26,18 @@ export default [
         ecmaVersion: 'latest',
         sourceType: 'module'
       }
+    },
+    rules: {
+      ...prettierConfig.rules, // Disable conflicting ESLint rules
+      'prettier/prettier': 'error', // Run Prettier as an ESLint rule,
+      '@typescript-eslint/no-unused-vars': [
+        'error',
+        {
+          argsIgnorePattern: '^_',
+          varsIgnorePattern: '^_',
+          caughtErrorsIgnorePattern: '^_'
+        }
+      ]
     }
   },
 
@@ -35,5 +48,6 @@ export default [
       'vue/multi-word-component-names': 'error',
       'vue/no-unused-vars': 'error'
     }
-  }
+  },
+  prettier
 ]

@@ -1,3 +1,9 @@
+<script setup lang="ts">
+  import CharacterList from '@/components/CharacterList/index.vue'
+</script>
+
 <template>
-  APP
+  <main class="md:mx-auto max-w-screen-md py-10">
+    <character-list />
+  </main>
 </template>
