@@ -7,3 +7,9 @@
     <character-list />
   </main>
 </template>
+
+<style lang="postcss">
+  body {
+    @apply bg-thunder-950;
+  }
+</style>
