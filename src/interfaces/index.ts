@@ -21,4 +21,5 @@ export type TCharactersAttributes = keyof ICharacter
 
 export interface GetCharactersQuery {
   page: number
+  search?: string | null
 }

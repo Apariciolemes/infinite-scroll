@@ -47,11 +47,13 @@ yarn coverage
 ### 6. Lint and Format Code
 
 Ensure your code follows the linting rules:
+
 ```bash
 yarn lint
 ```
 
 To automatically format code:
+
 ```bash
 yarn format
 ```
